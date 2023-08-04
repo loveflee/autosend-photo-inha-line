@@ -4,7 +4,7 @@ Install hacs { https://hacs.xyz/docs/configuration/basic }</br>
 Apply for LINE API { https://notify-bot.line.me/zh_TW/ }</br>
 Intell HA Line Notify (https://github.com/maxmacstn/HA-Line-Notify)</br>
 
-add whitelist_external_dirs</br>
+add whitelist external dirs</br>
 nano /config/configuration.yaml</br>
 ```
 homeassistant:</br>
