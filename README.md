@@ -12,7 +12,8 @@ homeassistant:
     - /media
 ```
 Transfer to Home Assistant automation</br>
-"Create a new automation to use the 'notify_line' app to send IPCam photos with Home Assistant.</br>
+"Create a new automation to use the 'notify_line' app to send IPCam photos with Home Assistant</br>
+</br>
 Click on the three dots in the upper right corner, choose "Edit as YAML," </br>
 
 ```
