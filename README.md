@@ -6,8 +6,8 @@ Intell HA Line Notify (https://github.com/maxmacstn/HA-Line-Notify)</br>
 
 add whitelist_external_dirs</br>
 nano /config/configuration.yaml</br>
-'''
+```
 homeassistant:</br>
   whitelist_external_dirs:</br>
     - /media</br>
-'''
+```
