@@ -45,3 +45,11 @@ action:
 mode: single
 ```
 When motion detection reaches 3 seconds, Line will send a notification and receive a live photo stream.
+添加完白名單後</br>
+移到 Home Assistant 自動化</br>
+創建一個新的自動化，以使用“notify_line”應用程序通過 Home Assistant 發送 IPCam 照片</br>
+單擊右上角的三個點，選擇“編輯 為 YAML”</br>
+entity_id：選擇運動檢測傳感器，然後IP攝像機</br>
+我的範例是 binary_sensor.gate_cell_motion_detection 和 camera.gate</br>
+當運動檢測達到 3 秒時，Line 將發送通知並接收實時照片流</br>
+傳感器跟鏡頭選對
