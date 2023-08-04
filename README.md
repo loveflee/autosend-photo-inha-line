@@ -44,7 +44,8 @@ action:
         file: /media/{{ now().strftime('%Y%m%d%H%M%S') }}.jpeg
 mode: single
 ```
-When motion detection reaches 3 seconds, Line will send a notification and receive a live photo stream.
+When motion detection reaches 3 seconds, Line will send a notification and receive a live photo stream.</br></br></br>
+中文說明:</br>
 添加完白名單後</br>
 移到 Home Assistant 自動化</br>
 創建一個新的自動化，以使用“notify_line”應用程序通過 Home Assistant 發送 IPCam 照片</br>
