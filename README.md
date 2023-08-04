@@ -1,2 +1,2 @@
 # autosend-photo-inha-line
-use line notiry send ipcam photo withhome assistant 
+use line notiry app send ipcam photo withhome assistant 
