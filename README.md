@@ -44,3 +44,4 @@ action:
         file: /media/{{ now().strftime('%Y%m%d%H%M%S') }}.jpeg
 mode: single
 ```
+When motion detection reaches 3 seconds, Line will send a notification and receive a live photo stream.
