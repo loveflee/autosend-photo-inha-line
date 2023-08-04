@@ -15,6 +15,8 @@ Transfer to Home Assistant automation</br>
 "Create a new automation to use the 'notify_line' app to send IPCam photos with Home Assistant</br>
 </br>
 Click on the three dots in the upper right corner, choose "Edit as YAML," </br>
+entity_id: Choose the motion detection sensor and IP camera</br>
+My example is binary_sensor.gate_cell_motion_detection and camera.gate</br>
 
 ```
 alias: Gate view
