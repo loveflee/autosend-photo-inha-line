@@ -52,5 +52,5 @@ When motion detection reaches 3 seconds, Line will send a notification and recei
 單擊右上角的三個點，選擇“編輯 為 YAML”</br>
 entity_id：選擇運動檢測傳感器， ipcam鏡頭</br>
 我的範例是 binary_sensor.gate_cell_motion_detection 跟 camera.gate</br>
-當運動檢測達到 3 秒時，Line 將發送通知並收實況照片</br>
+當運動檢測達到 3 秒時，Line 將發送通知跟照片</br>
 傳感器 跟 鏡頭 要選對
